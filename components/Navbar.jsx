@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Typing from './Typing';
 
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
@@ -22,7 +23,7 @@ const Navbar = () => (
         className="w-[24px] h-[24px] object-contain"
       />
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        METAVERSUS
+        Black Machine <Typing />
       </h2>
       <img
         src="/menu.svg"

@@ -21,17 +21,15 @@ const Feedback = () => (
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Samantha
+            Evander Júnior
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder Metaverus
+            Fundador & CEO
           </p>
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “With the development of today's technology, metaverse is very
-          useful for today's work, or can be called web 3.0. by using
-          metaverse you can use it as anything”
+          “Em sua trajetória acadêmica e profissional, Evander Júnior sempre esteve à frente do seu tempo, buscando constantemente o conhecimento e aprofundando-se nas mais diversas áreas da tecnologia. Desde a universidade, ele imaginava uma empresa que não apenas oferecesse serviços tecnológicos, mas que fosse uma verdadeira parceira para os clientes, ajudando-os a abraçar o futuro digital com confiança e sucesso.”
         </p>
       </motion.div>
 

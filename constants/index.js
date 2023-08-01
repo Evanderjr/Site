@@ -1,70 +1,70 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/cliente/ino.jpg',
+    title: 'CO-CEO Inock Alberto',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/Evander2.jpg',
+    title: 'CEO Evander Júnior',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/Equipa3.jpg',
+    title: 'Membros',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/Evander3.jpg',
+    title: 'Membros',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/Equipa3.jpg',
+    title: 'Membros',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Desenvolvimento Web',
+  'Robótica & Inteligência Artificial',
+  'Gestão de Projetos',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'T.O.T - Tecnologia, Otimização e Transformação',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Sector responsável por Robótica & Inteligência Artificial, Gestão de projectos',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'WebMach - O Poder do Desenvolvimento Web',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Sector responsável pelo desenvolvimento Web',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/cliente/publi.jpg',
+    title: 'Black Machine & NobleGroup, fecham contrato para criação de uma plataforma Web',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        '"Trabalhar com a BLACK-MACHINE foi uma experiência incrível. Seu comprometimento com a qualidade e a inovação realmente fizeram a diferença em nosso projeto." - Empresa NobleGroup',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/cliente/gruta.jpg',
+    title: 'Gruta Capital & Black Machine reforçam parceiria',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        '"O que sempre precisamos é de parceiros com eles, olham sempre em como resolver problemas socias com a tecnologia"',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/cliente/publi1.jpg',
+    title: 'Contrato Renovado',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        '"Os resultados alcançados com as soluções de inteligência artificial da BLACK-MACHINE superaram nossas expectativas. Recomendamos seus serviços sem hesitação." - Dr.António Viegas',
   },
 ];
 
