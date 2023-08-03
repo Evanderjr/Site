@@ -1,27 +1,23 @@
-// components/Logo.js
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
-const rotateAnimation = keyframes`
-  0% {
-    transform: rotate(0deg);
+const blinkAnimation = keyframes`
+  0%, 50%, 100% {
+    opacity: 1;
   }
-  100% {
-    transform: rotate(360deg);
+  25%, 75% {
+    opacity: 0;
   }
 `;
 
 const LogoContainer = styled.div`
-  width: 100px; /* Defina o tamanho do logo conforme necessário */
-  height: 100px; /* Defina o tamanho do logo conforme necessário */
-  animation: ${rotateAnimation} 3s linear infinite; /* Defina a animação e duração */
+  width: 100px;
+  height: 100px;
+  background-image: url('/logo/2.svg'); /* Substitua o caminho pela localização da imagem do seu logo */
+  background-size: cover; /* Ajuste o tamanho da imagem de acordo com o elemento */
+  animation: ${blinkAnimation} 2s infinite;
 `;
 
-const Logo = () => (
-  <LogoContainer>
-    {/* Coloque aqui o conteúdo do seu logo */}
-    <img src="/logo/2.svg" alt="Logo" />
-  </LogoContainer>
-);
+const Logo = () => <LogoContainer />;
 
 export default Logo;

@@ -1,8 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Logo from '../components/Logo';
-import InclinedImage from '../components/InclinedImage';
+import LogoContainer from '../components/Logo';
+import BlinkingImage from '../components/BlinkingImage';
 
 import styles from '../styles';
 import { slideIn, staggerContainer } from '../utils/motion';
@@ -22,11 +22,11 @@ const Hero = () => (
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
 
-        <InclinedImage />
+        <BlinkingImage src="/10.png" alt="Descrição da imagem" />;
 
         <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
-            <Logo />
+            <LogoContainer />
           </div>
         </a>
       </motion.div>
