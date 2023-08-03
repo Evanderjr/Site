@@ -64,7 +64,7 @@ export const insights = [
     imgUrl: '/cliente/publi1.jpg',
     title: 'Tornamo-nos Parceiros',
     subtitle:
-        '"Os resultados alcançados com as soluções de aplicadas superaram nossas expectativas. Recomendamos seus serviços sem hesitação." - Dr. Marcos Paquissi - Director Geral MarJoel',
+        '"Os resultados alcançados com as soluções aplicadas superaram nossas expectativas. Recomendamos seus serviços sem hesitação." - Dr. Marcos Paquissi - Director Geral MarJoel',
   },
 ];
 
